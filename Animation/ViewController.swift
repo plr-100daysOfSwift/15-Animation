@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
 	var imageView: UIImageView!
+	var currentAnimation = 0
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -21,6 +22,10 @@ class ViewController: UIViewController {
 	}
 
 	@IBAction func tapped(_ sender: Any) {
+		currentAnimation += 1
+		if currentAnimation > 7 {
+			currentAnimation = 0
+		}
 	}
 	
 }
