@@ -13,6 +13,7 @@
 		DA0B33062649EE0D006966F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0B33042649EE0D006966F1 /* Main.storyboard */; };
 		DA0B33082649EE0D006966F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0B33072649EE0D006966F1 /* Assets.xcassets */; };
 		DA0B330B2649EE0D006966F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0B33092649EE0D006966F1 /* LaunchScreen.storyboard */; };
+		DA0B33132649EEE2006966F1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA0B33122649EEE2006966F1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DA0B33072649EE0D006966F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA0B330A2649EE0D006966F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA0B330C2649EE0D006966F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0B33122649EEE2006966F1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		DA0B32F22649EE0D006966F1 = {
 			isa = PBXGroup;
 			children = (
+				DA0B33122649EEE2006966F1 /* README.md */,
 				DA0B32FD2649EE0D006966F1 /* Animation */,
 				DA0B32FC2649EE0D006966F1 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				DA0B330B2649EE0D006966F1 /* LaunchScreen.storyboard in Resources */,
 				DA0B33082649EE0D006966F1 /* Assets.xcassets in Resources */,
+				DA0B33132649EEE2006966F1 /* README.md in Resources */,
 				DA0B33062649EE0D006966F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UC6H82UP9B;
 				INFOPLIST_FILE = Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.plrichardson.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UC6H82UP9B;
 				INFOPLIST_FILE = Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.plrichardson.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
