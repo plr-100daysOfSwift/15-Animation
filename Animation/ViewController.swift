@@ -40,8 +40,10 @@ class ViewController: UIViewController {
 				self.imageView.transform = .identity
 			case 6:
 				self.imageView.alpha = 0.1
+				self.imageView.backgroundColor = .green
 			case 7:
 				self.imageView.alpha = 1
+				self.imageView.backgroundColor = .clear
 			default:
 				break
 			}
