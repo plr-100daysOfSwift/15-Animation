@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	var imageView: UIImageView!
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
+
+		imageView = UIImageView(image: UIImage(named: "penguin"))
+		imageView.center = CGPoint(x: 512, y: 384)
+		view.addSubview(imageView)
+
 	}
 
 	@IBAction func tapped(_ sender: Any) {
