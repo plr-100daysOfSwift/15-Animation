@@ -11,12 +11,14 @@ class ViewController: UIViewController {
 
 	var imageView: UIImageView!
 	var currentAnimation = 0
+	let numberOfAnimations = 7
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
 		imageView = UIImageView(image: UIImage(named: "penguin"))
-		imageView.center = CGPoint(x: 512, y: 384)
+		let centre = CGPoint(x: view.frame.width / 2, y: view.frame.height / 2)
+		imageView.center = centre
 		view.addSubview(imageView)
 
 	}
@@ -47,10 +49,8 @@ class ViewController: UIViewController {
 			sender.isHidden = false
 		}
 
-		currentAnimation += 1
-		if currentAnimation > 7 {
-			currentAnimation = 0
-		}
+		currentAnimation =  currentAnimation < numberOfAnimations ? currentAnimation + 1 : 0
+
 	}
 	
 }
