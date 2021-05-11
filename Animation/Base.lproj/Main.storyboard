@@ -17,7 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlt-jr-Lkv">
-                                <rect key="frame" x="192" y="832" width="30" height="30"/>
+                                <rect key="frame" x="192" y="829" width="30" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Tap"/>
                                 <connections>
                                     <action selector="tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pXC-8e-c1d"/>
@@ -27,8 +28,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Jlt-jr-Lkv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ApY-T7-N8B"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Jlt-jr-Lkv" secondAttribute="bottom" id="vh1-eW-Ldx"/>
+                            <constraint firstItem="Jlt-jr-Lkv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="HZr-bh-SJM"/>
+                            <constraint firstItem="Jlt-jr-Lkv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="w9j-BL-YZD"/>
                         </constraints>
                     </view>
                 </viewController>
